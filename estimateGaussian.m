@@ -9,7 +9,6 @@ function [mu sigma2] = estimateGaussian(X)
 
 % Useful variables
 [m, n] = size(X);
-
 mu = zeros(n, 1);
 sigma2 = zeros(n, 1);
 mu = (mean(X,1))';
